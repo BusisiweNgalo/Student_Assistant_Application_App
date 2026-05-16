@@ -1,0 +1,26 @@
+name: student_assistant_app
+description: Student Assistant Application Management System
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.0           # Unit 3 - State Management
+  supabase_flutter: ^2.0.0   # Unit 5 - Supabase Integration
+  image_picker: ^1.0.5       # Unit 5 - Image picking
+  intl: ^0.18.0              # Date formatting
+  flutter_dotenv: ^5.1.0     # Environment variables
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
