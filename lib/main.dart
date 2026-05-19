@@ -1,3 +1,8 @@
+/**
+*Student Number: 218009030, 220049798, 220033640, 222057332, 221002961.
+*Student Name: TA RASEGO, LONWABO SIFUMBA, BN NGALO, TC LAAT, TC RADEBE.
+*Question: application_viewmodel.
+*/
 
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
